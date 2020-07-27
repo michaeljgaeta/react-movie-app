@@ -1,3 +1,10 @@
+@media screen and (max-width: 960px) {
+  .searchbox-wrap {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
 .searchbox {
   display: block;
   width: 100%;
@@ -7,9 +14,9 @@
   outline: none;
   background: none;
 
-  background-color: #EEE;
+  background-color: #eee;
   border-radius: 8px;
-  color: #53565A;
+  color: #53565a;
   font-size: 20px;
   font-weight: 300px;
 
@@ -17,5 +24,5 @@
 }
 
 .searchbox:focus {
-  box-shadow: 0px 0px 8px 3px #4484C4;
+  box-shadow: 0px 0px 8px 3px #4484c4;
 }
