@@ -6,7 +6,7 @@ export default function Results({ results }) {
   return (
     <div className="results">
       {results.map((result) => (
-        <Movie result={result} />
+        <Movie key={result.imdbID} result={result} />
       ))}
     </div>
   );
